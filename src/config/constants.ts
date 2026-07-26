@@ -1,0 +1,8 @@
+import 'dotenv/config'
+
+export const MESSAGE_CENTRAL_CONFIG = {
+  CUSTOMER_ID: process.env.MESSAGE_CENTRAL_CUSTOMER_ID || 'C-8713CA4F93C4432',
+  AUTH_TOKEN: process.env.MESSAGE_CENTRAL_AUTH_TOKEN || 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJDLTg3MTNDQTRGOTNDNDQzMiIsImlhdCI6MTc3NDAwMjA0OSwiZXhwIjoxOTMxNjgyMDQ5fQ.liHbRkmpC63ZMdIglAdOGpdcwIvJN7EzjGLWqzqbv6q6lBYkMb9F81My4ETEuKRMWuj6cZ017haVHBV8ok4KVA',
+  BASE_URL: process.env.MESSAGE_CENTRAL_BASE_URL || 'https://cpaas.messagecentral.com/verification/v3',
+  COUNTRY_CODE: process.env.MESSAGE_CENTRAL_COUNTRY_CODE || '91',
+}
